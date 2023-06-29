@@ -1,9 +1,15 @@
 import os
 import subprocess
 
-repo_path = "/home/pacadmin/dotfiles"
+repo_path = "dotfiles"
 repo_url = "git@github.com:pakyrs/dotfiles.git"
 branch = "master"
+
+# Resolve home directory
+home_directory = os.path.expanduser("~")
+
+# Adjust the repo_path with the home directory
+repo_path = os.path.join(home_directory, repo_path)
 
 # Go to the repository directory
 os.chdir(repo_path)
