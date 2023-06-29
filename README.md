@@ -1,4 +1,4 @@
-# Check and Pull Script
+# Check and Pull Script 🐍
 
 This Python script automates the process of checking if your local Git repository is behind the remote repository and performs a `git pull` if necessary. It helps keep your local repository up to date with the latest changes from the remote repository.
 
@@ -22,7 +22,7 @@ cd check_and_pull
 Run the script:
 
 ```shell
-    python check_and_pull.py
+python3 check_and_pull.py
 
 ```
     The script will check if you are behind on the remote branch. If there are new changes, it will perform a git pull to update your local repository.
