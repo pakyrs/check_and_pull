@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-repo_path = "dotfiles"
+repo_path = "scripts/dotfiles"
 repo_url = "git@github.com:pakyrs/dotfiles.git"
 branch = "master"
 
